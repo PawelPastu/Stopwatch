@@ -1,0 +1,41 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(242, 242, 242);
+}
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: white;
+  padding: 30px;
+}
+.display{
+  font-size: 5rem;
+  font-weight: bold;
+  color: rgb(77, 77, 77);
+  margin-bottom: 25px;
+}
+.controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+.start-button{
+  background-color: rgb(17, 204, 0);
+}
+.stop-button{
+  background-color: rgb(242, 51, 13);
+}
+.reset-button{
+  background-color: rgb(61, 168, 245);
+}
